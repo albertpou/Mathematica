@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     17565,        421]
-NotebookOptionsPosition[     16008,        377]
-NotebookOutlinePosition[     16353,        392]
-CellTagsIndexPosition[     16310,        389]
+NotebookDataLength[     17786,        426]
+NotebookOptionsPosition[     16228,        382]
+NotebookOutlinePosition[     16573,        397]
+CellTagsIndexPosition[     16530,        394]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -104,14 +104,15 @@ Cell[BoxData[
   RowBox[{"1", "\[InvisibleSpace]", "\<\": \"\>", "\[InvisibleSpace]", 
    FractionBox["1", "6"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"+0.00213333\"\>",
-     0.0021333333333333334`,
+    InterpretationBox["\<\"-0.000166667\"\>",
+     -0.00016666666666666666`,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1688"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1665"}],
   SequenceForm[1, ": ", 
    Rational[1, 6], 
-   NumberForm[0.0021333333333333334`, NumberSigns -> {"-", "+"}], " n=", 1688],
+   NumberForm[-0.00016666666666666666`, NumberSigns -> {"-", "+"}], " n=", 
+   1665],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7087858304562187`*^9, 3.708785847051103*^9}, {
    3.7087859220394793`*^9, 3.7087859398442917`*^9}, 3.708786060132842*^9, 
@@ -120,23 +121,24 @@ Cell[BoxData[
    3.708786777575592*^9, 3.7087868503862686`*^9}, 3.7087869854429626`*^9, 
    3.708787115994649*^9, 3.7087871590904455`*^9, 3.7087921364415417`*^9, {
    3.7087921971402407`*^9, 3.708792219625171*^9}, {3.70879225414745*^9, 
-   3.708792260653823*^9}, {3.70879251378193*^9, 
-   3.708792519293089*^9}},ExpressionUUID->"b630c6f2-b682-47c7-a61b-\
-dc0dcc56f8f0"],
+   3.708792260653823*^9}, {3.70879251378193*^9, 3.708792519293089*^9}, 
+   3.709126372960471*^9},ExpressionUUID->"44a94222-d9dc-48d5-9d0b-\
+6056b5d051ab"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"2", "\[InvisibleSpace]", "\<\": \"\>", "\[InvisibleSpace]", 
    FractionBox["1", "6"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"+0.00313333\"\>",
-     0.0031333333333333335`,
+    InterpretationBox["\<\"+0.000133333\"\>",
+     0.00013333333333333334`,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1698"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1668"}],
   SequenceForm[2, ": ", 
    Rational[1, 6], 
-   NumberForm[0.0031333333333333335`, NumberSigns -> {"-", "+"}], " n=", 1698],
+   NumberForm[0.00013333333333333334`, NumberSigns -> {"-", "+"}], " n=", 
+   1668],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7087858304562187`*^9, 3.708785847051103*^9}, {
    3.7087859220394793`*^9, 3.7087859398442917`*^9}, 3.708786060132842*^9, 
@@ -145,23 +147,23 @@ Cell[BoxData[
    3.708786777575592*^9, 3.7087868503862686`*^9}, 3.7087869854429626`*^9, 
    3.708787115994649*^9, 3.7087871590904455`*^9, 3.7087921364415417`*^9, {
    3.7087921971402407`*^9, 3.708792219625171*^9}, {3.70879225414745*^9, 
-   3.708792260653823*^9}, {3.70879251378193*^9, 
-   3.708792519293089*^9}},ExpressionUUID->"148620d5-1728-405a-ad89-\
-b1dd1488c9ef"],
+   3.708792260653823*^9}, {3.70879251378193*^9, 3.708792519293089*^9}, 
+   3.709126372960471*^9},ExpressionUUID->"b8de4b51-ba59-46b3-ab6d-\
+4084db15b3f1"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"3", "\[InvisibleSpace]", "\<\": \"\>", "\[InvisibleSpace]", 
    FractionBox["1", "6"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"-0.00726667\"\>",
-     -0.007266666666666667,
+    InterpretationBox["\<\"-0.00226667\"\>",
+     -0.002266666666666667,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1594"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1644"}],
   SequenceForm[3, ": ", 
    Rational[1, 6], 
-   NumberForm[-0.007266666666666667, NumberSigns -> {"-", "+"}], " n=", 1594],
+   NumberForm[-0.002266666666666667, NumberSigns -> {"-", "+"}], " n=", 1644],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7087858304562187`*^9, 3.708785847051103*^9}, {
    3.7087859220394793`*^9, 3.7087859398442917`*^9}, 3.708786060132842*^9, 
@@ -170,24 +172,24 @@ Cell[BoxData[
    3.708786777575592*^9, 3.7087868503862686`*^9}, 3.7087869854429626`*^9, 
    3.708787115994649*^9, 3.7087871590904455`*^9, 3.7087921364415417`*^9, {
    3.7087921971402407`*^9, 3.708792219625171*^9}, {3.70879225414745*^9, 
-   3.708792260653823*^9}, {3.70879251378193*^9, 
-   3.708792519293089*^9}},ExpressionUUID->"ad158a33-301d-4a9b-afe5-\
-0369357f793e"],
+   3.708792260653823*^9}, {3.70879251378193*^9, 3.708792519293089*^9}, 
+   3.709126372960471*^9},ExpressionUUID->"1ed7cd11-e1c7-470a-86b8-\
+39911cd58e02"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"4", "\[InvisibleSpace]", "\<\": \"\>", "\[InvisibleSpace]", 
    FractionBox["1", "6"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"-0.00136667\"\>",
-     -0.0013666666666666666`,
+    InterpretationBox["\<\"+0.000233333\"\>",
+     0.00023333333333333333`,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1653"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1669"}],
   SequenceForm[4, ": ", 
    Rational[1, 6], 
-   NumberForm[-0.0013666666666666666`, NumberSigns -> {"-", "+"}], " n=", 
-   1653],
+   NumberForm[0.00023333333333333333`, NumberSigns -> {"-", "+"}], " n=", 
+   1669],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7087858304562187`*^9, 3.708785847051103*^9}, {
    3.7087859220394793`*^9, 3.7087859398442917`*^9}, 3.708786060132842*^9, 
@@ -196,23 +198,23 @@ Cell[BoxData[
    3.708786777575592*^9, 3.7087868503862686`*^9}, 3.7087869854429626`*^9, 
    3.708787115994649*^9, 3.7087871590904455`*^9, 3.7087921364415417`*^9, {
    3.7087921971402407`*^9, 3.708792219625171*^9}, {3.70879225414745*^9, 
-   3.708792260653823*^9}, {3.70879251378193*^9, 
-   3.70879251930872*^9}},ExpressionUUID->"6f81c8c4-280a-4d7f-b581-\
-f9eda4e6335f"],
+   3.708792260653823*^9}, {3.70879251378193*^9, 3.708792519293089*^9}, 
+   3.709126372960471*^9},ExpressionUUID->"84e91dde-2673-48bf-93c1-\
+7a0b0be2b1d9"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"5", "\[InvisibleSpace]", "\<\": \"\>", "\[InvisibleSpace]", 
    FractionBox["1", "6"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"+0.000933333\"\>",
-     0.0009333333333333333,
+    InterpretationBox["\<\"+0.00183333\"\>",
+     0.0018333333333333333`,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1676"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1685"}],
   SequenceForm[5, ": ", 
    Rational[1, 6], 
-   NumberForm[0.0009333333333333333, NumberSigns -> {"-", "+"}], " n=", 1676],
+   NumberForm[0.0018333333333333333`, NumberSigns -> {"-", "+"}], " n=", 1685],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7087858304562187`*^9, 3.708785847051103*^9}, {
    3.7087859220394793`*^9, 3.7087859398442917`*^9}, 3.708786060132842*^9, 
@@ -221,23 +223,24 @@ Cell[BoxData[
    3.708786777575592*^9, 3.7087868503862686`*^9}, 3.7087869854429626`*^9, 
    3.708787115994649*^9, 3.7087871590904455`*^9, 3.7087921364415417`*^9, {
    3.7087921971402407`*^9, 3.708792219625171*^9}, {3.70879225414745*^9, 
-   3.708792260653823*^9}, {3.70879251378193*^9, 
-   3.70879251930872*^9}},ExpressionUUID->"2850d531-8024-4740-ad21-\
-7740c0c0a773"],
+   3.708792260653823*^9}, {3.70879251378193*^9, 3.708792519293089*^9}, 
+   3.7091263729761157`*^9},ExpressionUUID->"681d82d2-5b5a-4945-b1aa-\
+eeb112700a15"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"6", "\[InvisibleSpace]", "\<\": \"\>", "\[InvisibleSpace]", 
    FractionBox["1", "6"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"+0.00243333\"\>",
-     0.0024333333333333334`,
+    InterpretationBox["\<\"+0.000233333\"\>",
+     0.00023333333333333333`,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1691"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "1669"}],
   SequenceForm[6, ": ", 
    Rational[1, 6], 
-   NumberForm[0.0024333333333333334`, NumberSigns -> {"-", "+"}], " n=", 1691],
+   NumberForm[0.00023333333333333333`, NumberSigns -> {"-", "+"}], " n=", 
+   1669],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7087858304562187`*^9, 3.708785847051103*^9}, {
    3.7087859220394793`*^9, 3.7087859398442917`*^9}, 3.708786060132842*^9, 
@@ -246,9 +249,9 @@ Cell[BoxData[
    3.708786777575592*^9, 3.7087868503862686`*^9}, 3.7087869854429626`*^9, 
    3.708787115994649*^9, 3.7087871590904455`*^9, 3.7087921364415417`*^9, {
    3.7087921971402407`*^9, 3.708792219625171*^9}, {3.70879225414745*^9, 
-   3.708792260653823*^9}, {3.70879251378193*^9, 
-   3.70879251930872*^9}},ExpressionUUID->"cd701140-1486-4760-80fd-\
-19818ad781a9"]
+   3.708792260653823*^9}, {3.70879251378193*^9, 3.708792519293089*^9}, 
+   3.7091263729761157`*^9},ExpressionUUID->"c46686c9-8978-4467-998a-\
+ea031925e6cc"]
 }, Open  ]]
 }, Open  ]],
 
@@ -337,20 +340,21 @@ Cell[BoxData[
    "\[InvisibleSpace]", 
    FractionBox["1", "2"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"-0.0071\"\>",
-     -0.0071,
+    InterpretationBox["\<\"+0.0098\"\>",
+     0.0098,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "4929"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "5098"}],
   SequenceForm["cara", ": ", 
    Rational[1, 2], 
-   NumberForm[-0.0071, NumberSigns -> {"-", "+"}], " n=", 4929],
+   NumberForm[0.0098, NumberSigns -> {"-", "+"}], " n=", 5098],
   Editable->False]], "Print",
  CellChangeTimes->{{3.708791978078967*^9, 3.708791989039448*^9}, {
    3.7087920426061587`*^9, 3.7087920772065296`*^9}, {3.7087923100031385`*^9, 
    3.708792340319669*^9}, {3.708792379694216*^9, 3.7087923958290825`*^9}, 
-   3.7087925309578457`*^9},ExpressionUUID->"9e60fa7c-6412-41da-9637-\
-44e1a5820df1"],
+   3.7087925309578457`*^9, 
+   3.7091263767753077`*^9},ExpressionUUID->"25c2941f-ac99-4304-996b-\
+35dc80186399"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -358,20 +362,21 @@ Cell[BoxData[
    "\[InvisibleSpace]", 
    FractionBox["1", "2"], "\[InvisibleSpace]", 
    TagBox[
-    InterpretationBox["\<\"+0.0071\"\>",
-     0.0071,
+    InterpretationBox["\<\"-0.0098\"\>",
+     -0.0098,
      AutoDelete->True],
     NumberForm[#, NumberSigns -> {"-", "+"}]& ], 
-   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "5071"}],
+   "\[InvisibleSpace]", "\<\" n=\"\>", "\[InvisibleSpace]", "4902"}],
   SequenceForm["cruz", ": ", 
    Rational[1, 2], 
-   NumberForm[0.0071, NumberSigns -> {"-", "+"}], " n=", 5071],
+   NumberForm[-0.0098, NumberSigns -> {"-", "+"}], " n=", 4902],
   Editable->False]], "Print",
  CellChangeTimes->{{3.708791978078967*^9, 3.708791989039448*^9}, {
    3.7087920426061587`*^9, 3.7087920772065296`*^9}, {3.7087923100031385`*^9, 
    3.708792340319669*^9}, {3.708792379694216*^9, 3.7087923958290825`*^9}, 
-   3.7087925309578457`*^9},ExpressionUUID->"66c7e087-3dd2-4271-8f2e-\
-76e61756639f"]
+   3.7087925309578457`*^9, 
+   3.7091263767909336`*^9},ExpressionUUID->"fc305b06-4a1c-4d71-ad95-\
+c0f658836211"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -397,30 +402,30 @@ Cell[CellGroupData[{
 Cell[3513, 90, 400, 7, 30, "Input", "ExpressionUUID" -> \
 "584c34e4-0fa9-4ba4-a4fa-ff52ea0a3b63"],
 Cell[CellGroupData[{
-Cell[3938, 101, 1186, 23, 47, "Print", "ExpressionUUID" -> \
-"b630c6f2-b682-47c7-a61b-dc0dcc56f8f0"],
-Cell[5127, 126, 1186, 23, 47, "Print", "ExpressionUUID" -> \
-"148620d5-1728-405a-ad89-b1dd1488c9ef"],
-Cell[6316, 151, 1184, 23, 47, "Print", "ExpressionUUID" -> \
-"ad158a33-301d-4a9b-afe5-0369357f793e"],
-Cell[7503, 176, 1191, 24, 47, "Print", "ExpressionUUID" -> \
-"6f81c8c4-280a-4d7f-b581-f9eda4e6335f"],
-Cell[8697, 202, 1184, 23, 47, "Print", "ExpressionUUID" -> \
-"2850d531-8024-4740-ad21-7740c0c0a773"],
-Cell[9884, 227, 1185, 23, 47, "Print", "ExpressionUUID" -> \
-"cd701140-1486-4760-80fd-19818ad781a9"]
+Cell[3938, 101, 1217, 24, 47, "Print", "ExpressionUUID" -> \
+"44a94222-d9dc-48d5-9d0b-6056b5d051ab"],
+Cell[5158, 127, 1215, 24, 47, "Print", "ExpressionUUID" -> \
+"b8de4b51-ba59-46b3-ab6d-4084db15b3f1"],
+Cell[6376, 153, 1206, 23, 47, "Print", "ExpressionUUID" -> \
+"1ed7cd11-e1c7-470a-86b8-39911cd58e02"],
+Cell[7585, 178, 1215, 24, 47, "Print", "ExpressionUUID" -> \
+"84e91dde-2673-48bf-93c1-7a0b0be2b1d9"],
+Cell[8803, 204, 1210, 23, 47, "Print", "ExpressionUUID" -> \
+"681d82d2-5b5a-4945-b1aa-eeb112700a15"],
+Cell[10016, 229, 1217, 24, 47, "Print", "ExpressionUUID" -> \
+"c46686c9-8978-4467-998a-ea031925e6cc"]
 }, Open  ]]
 }, Open  ]],
-Cell[11096, 254, 2824, 65, 405, "Input", "ExpressionUUID" -> \
+Cell[11260, 257, 2824, 65, 405, "Input", "ExpressionUUID" -> \
 "b7617953-3b63-4e21-b6c5-66550f8b1801"],
 Cell[CellGroupData[{
-Cell[13945, 323, 353, 6, 30, "Input", "ExpressionUUID" -> \
+Cell[14109, 326, 353, 6, 30, "Input", "ExpressionUUID" -> \
 "65b1a43f-46ac-40ed-9e9a-4182371cdb88"],
 Cell[CellGroupData[{
-Cell[14323, 333, 828, 19, 47, "Print", "ExpressionUUID" -> \
-"9e60fa7c-6412-41da-9637-44e1a5820df1"],
-Cell[15154, 354, 826, 19, 47, "Print", "ExpressionUUID" -> \
-"66c7e087-3dd2-4271-8f2e-76e61756639f"]
+Cell[14487, 336, 854, 20, 47, "Print", "ExpressionUUID" -> \
+"25c2941f-ac99-4304-996b-35dc80186399"],
+Cell[15344, 358, 856, 20, 47, "Print", "ExpressionUUID" -> \
+"fc305b06-4a1c-4d71-ad95-c0f658836211"]
 }, Open  ]]
 }, Open  ]]
 }
