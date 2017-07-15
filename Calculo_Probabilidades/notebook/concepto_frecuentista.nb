@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     17553,        422]
-NotebookOptionsPosition[     15996,        378]
-NotebookOutlinePosition[     16341,        393]
-CellTagsIndexPosition[     16298,        390]
+NotebookDataLength[     17565,        421]
+NotebookOptionsPosition[     16008,        377]
+NotebookOutlinePosition[     16353,        392]
+CellTagsIndexPosition[     16310,        389]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,14 +25,13 @@ Cell[BoxData[
    RowBox[{"(", "\[IndentingNewLine]", 
     RowBox[{"(*", " ", 
      RowBox[{
-     "Funci\[OAcute]n", " ", "que", " ", "simula", " ", "el", " ", 
-      "experimento", " ", "aleatorio", " ", "de", " ", "lanzar", " ", "un", 
-      " ", "dado", " ", "n", " ", "veces", "\[IndentingNewLine]", "e", " ", 
-      "imprime", " ", "la", " ", "desviaci\[OAcute]n", " ", "de", " ", "la", 
-      " ", "frecuencia", " ", "relativa", " ", "de", " ", "cada", " ", 
-      "suceso", " ", "con", " ", "respecto", " ", "de", "\[IndentingNewLine]",
-       "su", " ", "probabilidad", " ", "cl\[AAcute]sica"}], " ", "*)"}], 
-    "\[IndentingNewLine]", 
+     "Funcion", " ", "que", " ", "simula", " ", "el", " ", "experimento", " ",
+       "aleatorio", " ", "de", " ", "lanzar", " ", "un", " ", "dado", " ", 
+      "n", " ", "veces", "\[IndentingNewLine]", "e", " ", "imprime", " ", 
+      "la", " ", "desviacion", " ", "de", " ", "la", " ", "frecuencia", " ", 
+      "relativa", " ", "de", " ", "cada", " ", "suceso", " ", "con", " ", 
+      "respecto", " ", "de", "\[IndentingNewLine]", "su", " ", "probabilidad",
+       " ", "clasica"}], " ", "*)"}], "\[IndentingNewLine]", 
     RowBox[{
      RowBox[{"contador", "=", 
       RowBox[{"ConstantArray", "[", 
@@ -77,14 +76,14 @@ Cell[BoxData[
       "]"}]}], "\[IndentingNewLine]", ")"}]}], 
   "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGCQAmIQPdPmZcP7ha8d9cLfNINovq/3OkD0bYWCCSB6X2LY
-EhDtMT1nC4jOWLd4J4gWyP0NprW09+wF0Tf+fz4Aop94Mh4F0VcyE8H0zPNr
-roHoqHfB10F0UMr3u2D1WaGPQXRsXtxzEC0cqfMaRP+7uOoviN6T4s30AUhf
-epbJC6JP/WkVBNFOx3tEQfQ/9x3SIPoGk5cCiH7lFaoNouuP2fZ+AtIVbZMW
-gujmzqtrQPS8ZvsNIDqiPmsriD6n2gymp1ybtQtEu0d7HALRFu+33gTRSrdY
-voHNedL5B0R35X7n+Aykp01sUgHRqo+/g+nzN8+ZgOhzL+xMQXRVRY4liE6s
-6rX6DDZH1xlEy8/idAfRPJ5d3iA6yHMOmDb48KPzK5C2m7y3B0Rn/LVZC6Ll
-TyTuANEA5ff+jQ==
+1:eJwdzE0ogwEAxvFZDhQiKdphI7sYcqDQTOOwL6dpPqOmqW1tODisXSaLbLby
+FbakhpNGlNVokxSTwxYxG3HZ8jXZsmbKNt7nPTz9Lk//8qFR8TCVQqHQiEEL
++20iaotwa7s/9LAg8TQDHxhjc/BY2rUF+SuqAyjf3TyEhepf0iqWyw0Df/ET
+GBZkncEbhZTU4rP7Yd9n5x0Uy5KP5F8pCcGBkcEXWNxbHYGZq+00dMlE1Bjh
+9bMiH16mpopgm8dUAjM8Jw0GqEIGfBdKWFB33mL+ItRML9ig3nBrh+v61j3Y
+o1M6oJepJ13yW48gr59/ChujjiCsuM/+JjthQwoa1cmcOOHy/GQlZIaSpL6g
+tx56XzkNUKtRNUGp1twcJzs17ZBuzeXBPIFRBMWCNdK62I8hQchZdJugPM3e
+gfQLqRN2eNilqxsR7v74bBn8BxLEBpk=
   "],ExpressionUUID->"d962b169-59f2-4619-a673-c1a699f993a6"],
 
 Cell[CellGroupData[{
@@ -259,14 +258,13 @@ Cell[BoxData[
   RowBox[{"(", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
-    "Funci\[OAcute]n", " ", "que", " ", "simula", " ", "el", " ", 
-     "experimento", " ", "aleatorio", " ", "de", " ", "lanzar", " ", "una", 
-     " ", "moneda", " ", "n", " ", "veces", "\[IndentingNewLine]", "e", " ", 
-     "imprime", " ", "la", " ", "desviaci\[OAcute]n", " ", "de", " ", "la", 
-     " ", "frecuencia", " ", "relativa", " ", "de", " ", "cada", " ", 
-     "suceso", " ", "con", " ", "respecto", " ", "de", "\[IndentingNewLine]", 
-     "su", " ", "probabilidad", " ", "cl\[AAcute]sica"}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
+    "Funcion", " ", "que", " ", "simula", " ", "el", " ", "experimento", " ", 
+     "aleatorio", " ", "de", " ", "lanzar", " ", "una", " ", "moneda", " ", 
+     "n", " ", "veces", "\[IndentingNewLine]", "e", " ", "imprime", " ", "la",
+      " ", "desviacion", " ", "de", " ", "la", " ", "frecuencia", " ", 
+     "relativa", " ", "de", " ", "cada", " ", "suceso", " ", "con", " ", 
+     "respecto", " ", "de", "\[IndentingNewLine]", "su", " ", "probabilidad", 
+     " ", "clasica"}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"contador", "=", 
      RowBox[{"ConstantArray", "[", 
@@ -316,8 +314,9 @@ Cell[BoxData[
      "]"}]}], "\[IndentingNewLine]", ")"}]}]], "Input",
  CellChangeTimes->{{3.7087871686017003`*^9, 3.708787286644318*^9}, {
   3.7087919240903864`*^9, 3.7087919618029833`*^9}, {3.7087920048366137`*^9, 
-  3.708792037673983*^9}, {3.7087922867916927`*^9, 
-  3.7087923034295588`*^9}},ExpressionUUID->"b7617953-3b63-4e21-b6c5-\
+  3.708792037673983*^9}, {3.7087922867916927`*^9, 3.7087923034295588`*^9}, {
+  3.7091248196477103`*^9, 
+  3.7091248271136417`*^9}},ExpressionUUID->"b7617953-3b63-4e21-b6c5-\
 66550f8b1801"],
 
 Cell[CellGroupData[{
@@ -392,35 +391,35 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2943, 67, 387, "Input", "ExpressionUUID" -> \
+Cell[558, 20, 2930, 66, 387, "Input", "ExpressionUUID" -> \
 "d962b169-59f2-4619-a673-c1a699f993a6"],
 Cell[CellGroupData[{
-Cell[3526, 91, 400, 7, 30, "Input", "ExpressionUUID" -> \
+Cell[3513, 90, 400, 7, 30, "Input", "ExpressionUUID" -> \
 "584c34e4-0fa9-4ba4-a4fa-ff52ea0a3b63"],
 Cell[CellGroupData[{
-Cell[3951, 102, 1186, 23, 47, "Print", "ExpressionUUID" -> \
+Cell[3938, 101, 1186, 23, 47, "Print", "ExpressionUUID" -> \
 "b630c6f2-b682-47c7-a61b-dc0dcc56f8f0"],
-Cell[5140, 127, 1186, 23, 47, "Print", "ExpressionUUID" -> \
+Cell[5127, 126, 1186, 23, 47, "Print", "ExpressionUUID" -> \
 "148620d5-1728-405a-ad89-b1dd1488c9ef"],
-Cell[6329, 152, 1184, 23, 47, "Print", "ExpressionUUID" -> \
+Cell[6316, 151, 1184, 23, 47, "Print", "ExpressionUUID" -> \
 "ad158a33-301d-4a9b-afe5-0369357f793e"],
-Cell[7516, 177, 1191, 24, 47, "Print", "ExpressionUUID" -> \
+Cell[7503, 176, 1191, 24, 47, "Print", "ExpressionUUID" -> \
 "6f81c8c4-280a-4d7f-b581-f9eda4e6335f"],
-Cell[8710, 203, 1184, 23, 47, "Print", "ExpressionUUID" -> \
+Cell[8697, 202, 1184, 23, 47, "Print", "ExpressionUUID" -> \
 "2850d531-8024-4740-ad21-7740c0c0a773"],
-Cell[9897, 228, 1185, 23, 47, "Print", "ExpressionUUID" -> \
+Cell[9884, 227, 1185, 23, 47, "Print", "ExpressionUUID" -> \
 "cd701140-1486-4760-80fd-19818ad781a9"]
 }, Open  ]]
 }, Open  ]],
-Cell[11109, 255, 2799, 65, 405, "Input", "ExpressionUUID" -> \
+Cell[11096, 254, 2824, 65, 405, "Input", "ExpressionUUID" -> \
 "b7617953-3b63-4e21-b6c5-66550f8b1801"],
 Cell[CellGroupData[{
-Cell[13933, 324, 353, 6, 30, "Input", "ExpressionUUID" -> \
+Cell[13945, 323, 353, 6, 30, "Input", "ExpressionUUID" -> \
 "65b1a43f-46ac-40ed-9e9a-4182371cdb88"],
 Cell[CellGroupData[{
-Cell[14311, 334, 828, 19, 47, "Print", "ExpressionUUID" -> \
+Cell[14323, 333, 828, 19, 47, "Print", "ExpressionUUID" -> \
 "9e60fa7c-6412-41da-9637-44e1a5820df1"],
-Cell[15142, 355, 826, 19, 47, "Print", "ExpressionUUID" -> \
+Cell[15154, 354, 826, 19, 47, "Print", "ExpressionUUID" -> \
 "66c7e087-3dd2-4271-8f2e-76e61756639f"]
 }, Open  ]]
 }, Open  ]]

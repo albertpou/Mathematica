@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5495,        146]
-NotebookOptionsPosition[      4528,        116]
-NotebookOutlinePosition[      4873,        131]
-CellTagsIndexPosition[      4830,        128]
+NotebookDataLength[      5519,        146]
+NotebookOptionsPosition[      4552,        116]
+NotebookOutlinePosition[      4897,        131]
+CellTagsIndexPosition[      4854,        128]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,14 +24,14 @@ Cell[BoxData[
   RowBox[{"(", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
-    "Funci\[OAcute]n", " ", "que", " ", "simula", " ", "un", " ", "muestreo", 
-     " ", "aleatorio", " ", "con", " ", "remplazamiento", " ", "sobre", " ", 
-     "una", " ", "poblaci\[OAcute]n", "\[IndentingNewLine]", "de", " ", "N", 
-     " ", "individuos", " ", "y", " ", "retorna", " ", "el", " ", 
-     "n\[UAcute]mero", " ", "de", " ", "veces", " ", "que", " ", "se", " ", 
-     "ha", " ", "efectuado", " ", "dicho", " ", "muestreo", " ", "hasta", 
-     "\[IndentingNewLine]", "que", " ", "los", " ", "N", " ", "elementos", 
-     " ", "escogidos", " ", "son", " ", 
+    "Funcion", " ", "que", " ", "simula", " ", "un", " ", "muestreo", " ", 
+     "aleatorio", " ", "con", " ", "remplazamiento", " ", "sobre", " ", "una",
+      " ", "poblacion", "\[IndentingNewLine]", "de", " ", "N", " ", 
+     "individuos", " ", "y", " ", "retorna", " ", "el", " ", "numero", " ", 
+     "de", " ", "veces", " ", "que", " ", "se", " ", "ha", " ", "efectuado", 
+     " ", "dicho", " ", "muestreo", " ", "hasta", "\[IndentingNewLine]", 
+     "que", " ", "los", " ", "N", " ", "elementos", " ", "escogidos", " ", 
+     "son", " ", 
      RowBox[{"distintos", ".", "\[IndentingNewLine]", 
       RowBox[{"Ejemplo", ":", " ", 
        RowBox[{
@@ -71,8 +71,8 @@ Cell[BoxData[
   3.709111784404758*^9}, {3.7091119232266293`*^9, 3.709111942944496*^9}, {
   3.709111973159525*^9, 3.709112083199229*^9}, {3.7091121436503425`*^9, 
   3.709112172794593*^9}, {3.7091122572160006`*^9, 3.709112261830064*^9}, {
-  3.7091124872095714`*^9, 
-  3.7091125018536844`*^9}},ExpressionUUID->"8df02e90-d3c8-4edb-8cc7-\
+  3.7091124872095714`*^9, 3.7091125018536844`*^9}, {3.7091247453417225`*^9, 
+  3.709124753384942*^9}},ExpressionUUID->"8df02e90-d3c8-4edb-8cc7-\
 f3e9391f6842"],
 
 Cell["\[LineSeparator]Lanzamiento de una moneda.", "Text",
@@ -130,22 +130,22 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2708, 55, 406, "Input", "ExpressionUUID" -> \
+Cell[558, 20, 2732, 55, 406, "Input", "ExpressionUUID" -> \
 "8df02e90-d3c8-4edb-8cc7-f3e9391f6842"],
-Cell[3269, 77, 211, 3, 49, "Text", "ExpressionUUID" -> \
+Cell[3293, 77, 211, 3, 49, "Text", "ExpressionUUID" -> \
 "ad84cc09-e8a0-4e7e-a0de-537f5e478d07"],
 Cell[CellGroupData[{
-Cell[3505, 84, 190, 4, 30, "Input", "ExpressionUUID" -> \
+Cell[3529, 84, 190, 4, 30, "Input", "ExpressionUUID" -> \
 "da00ad03-c395-40d6-9d9d-988c6c57c66e"],
-Cell[3698, 90, 158, 3, 30, "Output", "ExpressionUUID" -> \
+Cell[3722, 90, 158, 3, 30, "Output", "ExpressionUUID" -> \
 "91f01fac-4e6b-4c13-826f-464663184e4d"]
 }, Open  ]],
-Cell[3871, 96, 166, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[3895, 96, 166, 3, 30, "Text", "ExpressionUUID" -> \
 "c9fc9843-bc20-446a-bce8-e4da7c69963a"],
 Cell[CellGroupData[{
-Cell[4062, 103, 188, 4, 30, "Input", "ExpressionUUID" -> \
+Cell[4086, 103, 188, 4, 30, "Input", "ExpressionUUID" -> \
 "9a22046e-bb6b-4df5-86ca-a5ea366923ea"],
-Cell[4253, 109, 259, 4, 63, "Output", "ExpressionUUID" -> \
+Cell[4277, 109, 259, 4, 30, "Output", "ExpressionUUID" -> \
 "59a90d23-cfa3-4ee7-b7a8-11eb28b92eee"]
 }, Open  ]]
 }
