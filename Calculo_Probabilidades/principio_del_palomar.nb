@@ -1,0 +1,154 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5495,        146]
+NotebookOptionsPosition[      4528,        116]
+NotebookOutlinePosition[      4873,        131]
+CellTagsIndexPosition[      4830,        128]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Palomar", "[", "N_", "]"}], ":=", 
+  RowBox[{"(", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Funci\[OAcute]n", " ", "que", " ", "simula", " ", "un", " ", "muestreo", 
+     " ", "aleatorio", " ", "con", " ", "remplazamiento", " ", "sobre", " ", 
+     "una", " ", "poblaci\[OAcute]n", "\[IndentingNewLine]", "de", " ", "N", 
+     " ", "individuos", " ", "y", " ", "retorna", " ", "el", " ", 
+     "n\[UAcute]mero", " ", "de", " ", "veces", " ", "que", " ", "se", " ", 
+     "ha", " ", "efectuado", " ", "dicho", " ", "muestreo", " ", "hasta", 
+     "\[IndentingNewLine]", "que", " ", "los", " ", "N", " ", "elementos", 
+     " ", "escogidos", " ", "son", " ", 
+     RowBox[{"distintos", ".", "\[IndentingNewLine]", 
+      RowBox[{"Ejemplo", ":", " ", 
+       RowBox[{
+       "Lanzar", " ", "un", " ", "dado", " ", "6", " ", "veces", " ", "sin", 
+        " ", "que", " ", "se", " ", "repita", " ", "ninguna", " ", 
+        RowBox[{"cara", "."}]}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"contador", "=", "0"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"cardinal", "=", "0"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"While", "[", 
+     RowBox[{
+      RowBox[{"cardinal", "\[NotEqual]", "N"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"muestra", "=", 
+        RowBox[{"{", "}"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"For", "[", 
+        RowBox[{
+         RowBox[{"i", "=", "1"}], ",", 
+         RowBox[{"i", "<=", "N"}], ",", 
+         RowBox[{"i", "++"}], ",", " ", "\[IndentingNewLine]", 
+         RowBox[{"muestra", "=", 
+          RowBox[{"Union", "[", 
+           RowBox[{"muestra", ",", 
+            RowBox[{"{", 
+             RowBox[{"RandomInteger", "[", 
+              RowBox[{"{", 
+               RowBox[{"1", ",", "N"}], "}"}], "]"}], "}"}]}], "]"}]}]}], 
+        "]"}], ";", "\[IndentingNewLine]", 
+       RowBox[{"cardinal", "=", 
+        RowBox[{"Length", "[", "muestra", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"contador", "++"}]}]}], "\[IndentingNewLine]", "]"}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Return", " ", "[", "contador", "]"}]}], "\[IndentingNewLine]", 
+   ")"}]}]], "Input",
+ CellChangeTimes->{{3.709111268452609*^9, 3.709111418218869*^9}, {
+  3.709111454675598*^9, 3.709111732377544*^9}, {3.709111767907365*^9, 
+  3.709111784404758*^9}, {3.7091119232266293`*^9, 3.709111942944496*^9}, {
+  3.709111973159525*^9, 3.709112083199229*^9}, {3.7091121436503425`*^9, 
+  3.709112172794593*^9}, {3.7091122572160006`*^9, 3.709112261830064*^9}, {
+  3.7091124872095714`*^9, 
+  3.7091125018536844`*^9}},ExpressionUUID->"8df02e90-d3c8-4edb-8cc7-\
+f3e9391f6842"],
+
+Cell["\[LineSeparator]Lanzamiento de una moneda.", "Text",
+ CellChangeTimes->{{3.709112298787258*^9, 3.7091124015692854`*^9}, 
+   3.7091125664881597`*^9},ExpressionUUID->"ad84cc09-e8a0-4e7e-a0de-\
+537f5e478d07"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Palomar", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.7091123917161474`*^9, 
+  3.7091123947431045`*^9}},ExpressionUUID->"da00ad03-c395-40d6-9d9d-\
+988c6c57c66e"],
+
+Cell[BoxData["6"], "Output",
+ CellChangeTimes->{{3.7091125890221863`*^9, 
+  3.7091126142319236`*^9}},ExpressionUUID->"91f01fac-4e6b-4c13-826f-\
+464663184e4d"]
+}, Open  ]],
+
+Cell["Lanzamiento de un dado.", "Text",
+ CellChangeTimes->{{3.7091124137219377`*^9, 
+  3.70911243276744*^9}},ExpressionUUID->"c9fc9843-bc20-446a-bce8-\
+e4da7c69963a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Palomar", "[", "6", "]"}]], "Input",
+ CellChangeTimes->{{3.7091122685206923`*^9, 
+  3.709112273037073*^9}},ExpressionUUID->"9a22046e-bb6b-4df5-86ca-\
+a5ea366923ea"],
+
+Cell[BoxData["157"], "Output",
+ CellChangeTimes->{{3.7091122736798*^9, 3.7091122963699265`*^9}, {
+   3.7091124350715084`*^9, 3.7091124375545626`*^9}, 3.7091125708144283`*^9, 
+   3.7091126163990135`*^9},ExpressionUUID->"59a90d23-cfa3-4ee7-b7a8-\
+11eb28b92eee"]
+}, Open  ]]
+},
+WindowSize->{759, 833},
+WindowMargins->{{Automatic, 572}, {64, Automatic}},
+FrontEndVersion->"11.1 para Microsoft Windows (64-bit) (April 18, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2708, 55, 406, "Input", "ExpressionUUID" -> \
+"8df02e90-d3c8-4edb-8cc7-f3e9391f6842"],
+Cell[3269, 77, 211, 3, 49, "Text", "ExpressionUUID" -> \
+"ad84cc09-e8a0-4e7e-a0de-537f5e478d07"],
+Cell[CellGroupData[{
+Cell[3505, 84, 190, 4, 30, "Input", "ExpressionUUID" -> \
+"da00ad03-c395-40d6-9d9d-988c6c57c66e"],
+Cell[3698, 90, 158, 3, 30, "Output", "ExpressionUUID" -> \
+"91f01fac-4e6b-4c13-826f-464663184e4d"]
+}, Open  ]],
+Cell[3871, 96, 166, 3, 30, "Text", "ExpressionUUID" -> \
+"c9fc9843-bc20-446a-bce8-e4da7c69963a"],
+Cell[CellGroupData[{
+Cell[4062, 103, 188, 4, 30, "Input", "ExpressionUUID" -> \
+"9a22046e-bb6b-4df5-86ca-a5ea366923ea"],
+Cell[4253, 109, 259, 4, 63, "Output", "ExpressionUUID" -> \
+"59a90d23-cfa3-4ee7-b7a8-11eb28b92eee"]
+}, Open  ]]
+}
+]
+*)
+
